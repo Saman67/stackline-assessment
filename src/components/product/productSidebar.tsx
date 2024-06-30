@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProductData} from "../store/productSlice";
+import {ProductData} from "../../store/productSlice";
 
 
 type ProductSidebarProps = {

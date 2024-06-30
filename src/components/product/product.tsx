@@ -1,10 +1,10 @@
 import {useEffect} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
-import {RootState, AppDispatch} from '../store';
-import {fetchProductData} from '../store/productSlice';
+import {RootState, AppDispatch} from '../../store';
+import {fetchProductData} from '../../store/productSlice';
 import {ProductSidebar} from "./productSidebar";
-import {ProductSalesChart} from "./product/productSalesChart";
-import {ProductSalesTable} from "./product/productSalesTable";
+import {ProductSalesChart} from "./productSalesChart";
+import {ProductSalesTable} from "./productSalesTable";
 
 export function ProductView() {
   const dispatch = useDispatch<AppDispatch>();
